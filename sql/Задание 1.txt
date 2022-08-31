@@ -1,0 +1,3 @@
+Select * from Accounts
+inner join Contracts on Accounts.Contract_id = Contracts.id
+Where Contracts.DateTo < Accounts.DateTimeTo
